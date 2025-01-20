@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -195,6 +195,102 @@ header nav ul li a{
 .purple .card-btn{
     color: rgb(135, 0, 255);
 }
+.second .btn-logo{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 100px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+/* third section  */
+.third{
+    background-image: url("/assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+    padding: 100px 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.third-title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    margin-bottom: 50px;
+}
+.main-container{
+    display: flex;
+    gap: 50px;
+}
+.third-container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 50px;
+}
+.third-main{
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    border-radius: 16px;
+}
+.third-main .third-subtitle{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    padding: 40px;
+}
+.third-main .third-description{
+    padding: 40px;
+    font-weight: 500;
+}
+.third-card{
+    border-radius:16px;
+    width: 300px;
+    height: 345px;
+    background-color: white;
+}
+.third-card .third-subtitle{
+    font-weight: 700;
+    padding: 40px;
+}
+.third button{
+    width: 180px;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+    border: none;
+    border-radius: 48px;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", "serif";
+    cursor: pointer;
+}
+.third .blue-white{
+    background-color: rgb(60, 216, 232);
+}
+.third .green{
+    background-color: rgb(149, 178, 38);
+}
+#btn3{
+    position: relative;
+    top: 50px;
+    border-radius: 12px;
+    background-color: black;
+}
+#btn3:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
 
 /* for mobile device */
 @media screen and (max-width: 576px) {
@@ -236,5 +332,18 @@ header nav ul li a{
     .second-cards{
         flex-direction: column;
         gap: 15px;
+    }
+    .third{
+        padding: 5px 5px 60px 5px;
+    }
+    .third-container{
+        gap: 10px;
+    }
+    .third-card{
+        width: 230px;
+        height: 325px;
+    }
+    .third-card .third-subtitle{
+        padding: 20px;
     }
 }
