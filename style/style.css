@@ -292,6 +292,50 @@ header nav ul li a{
     background-color: white;
 }
 
+/* footer section  */
+footer{
+    color: white;
+    background-color: rgb(1, 172, 253);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 220px;
+}
+.footer-1{
+    max-width: 400px;
+}
+.footer-logo{
+    display: flex;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.footer-title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+}
+.footer-description{
+    font-size: 1.2rem;
+}
+.footer-2 h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.footer-2 li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-2 li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-3 h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
 /* for mobile device */
 @media screen and (max-width: 576px) {
     .hide{
@@ -345,5 +389,13 @@ header nav ul li a{
     }
     .third-card .third-subtitle{
         padding: 20px;
+    }
+    footer{
+        padding: 10px;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .footer-3 a{
+        margin-right: 10px;
     }
 }
