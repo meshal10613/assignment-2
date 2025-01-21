@@ -83,6 +83,12 @@ header nav ul li a{
     color: rgb(93, 88, 239);
 }
 
+/* Marquee tag  */
+marquee{
+    font-size: 1.5rem;
+    margin: 0 200px;
+}
+
 /* first section  */
 .first{
     padding: 100px 200px;
@@ -342,7 +348,7 @@ footer{
         display: none;
     }
     header{
-        padding: 10px 20px;
+        padding: 10px;
         justify-content: space-between;
         border-bottom: 0.5px solid rgb(254, 163, 1)
     }
@@ -353,8 +359,11 @@ footer{
         cursor: pointer;
         transform: scale(2);
     }
+    marquee{
+        margin: 0 10px;
+    }
     .first{
-        padding: 10px 20px;
+        padding: 10px;
         flex-direction: column-reverse;
         gap: 50px;
     }
