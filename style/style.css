@@ -133,7 +133,7 @@ header nav ul li a{
 .second{
     padding: 100px 200px;
     text-align: center;
-    background-image: url("/assets/bg.png");
+    background-image: url("../assets/bg.png");
 }
 .second-title{
     font-size: 2.5rem;
@@ -207,7 +207,7 @@ header nav ul li a{
 }
 /* third section  */
 .third{
-    background-image: url("/assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+    background-image: url("../assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
     padding: 100px 200px;
     text-align: left;
     display: flex;
