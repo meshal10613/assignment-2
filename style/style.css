@@ -350,7 +350,7 @@ footer{
     header{
         padding: 10px;
         justify-content: space-between;
-        border-bottom: 0.5px solid rgb(254, 163, 1)
+        border: 0.5px solid rgb(254, 163, 1)
     }
     .bar{
         display: block;
